@@ -1,0 +1,33 @@
+@keyframes colors{ 
+    0%{background-position: 0%  50%;}
+    50%{background-position:50% 50% ;}
+    100%{background-position: 0% 50%;}
+    }
+    @keyframes Text {
+        from{
+            width: 0;
+        }
+        to{
+            width: 435px;
+        }
+    }
+    @keyframes pisca {
+        from{ border-right-color:white; 
+            
+        }
+        to{
+            border-right-color:transparent ;
+        }
+    }
+    @keyframes cresceMenu {
+        from{
+            height: 0;
+            width: 0;
+    
+        }
+        to{
+            height:150vh;
+            width: 50%;
+        }
+        
+    }

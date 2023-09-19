@@ -1,0 +1,252 @@
+@media screen{ 
+    .menu{display: flex;} 
+    
+#parentMenu{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(72deg, rgb(74, 74, 223), red );
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite ;
+}
+.hamburguer{
+    display: none;
+    color: white;
+    cursor: pointer;
+}
+.pai{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+.logo{ 
+    cursor: pointer;
+    padding: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    cursor:pointer;
+    color:white;
+    font-family: monospace;
+    font-size: 20px;
+    transition: 0.1s;
+}
+.menu:hover{
+text-decoration:underline;
+}
+
+.logo div{
+    font-size: 18px;
+}
+.landing-meio{
+    width: 100%;
+    padding:  0% 10%;
+}
+.bg-image{
+    
+    height: 500px;
+    padding:5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    background-image: url('https://j.gifs.com/Mqr561.gif');
+}
+.bg-image h1{
+    font-size: 70px;
+    color: yellow;
+    font-family:Quicksand;
+}
+.bg-image p{
+    width: 415px;
+    white-space:nowrap;
+    text-align: left;
+    overflow: hidden;   
+    border-right:2px solid gray ;
+    color: white;
+    font-size: 20px;
+}
+.o{
+
+    animation: Text 3s steps(40) , pisca 0.5s infinite normal;
+}
+
+.bg-image button{
+    cursor: pointer;
+    border:none;
+    margin-top: 2%;
+    border-radius: 10px;
+    background-color: rgb(171, 13, 171);
+    color: white;
+    height: 50px;
+    width: 200px;
+    transition: 0.5s ;
+}
+.bg-image button:hover{
+    background-color: rgb(53, 78, 218);
+}
+
+.ep{
+
+    min-height: 60vh;
+    max-height: auto;
+    min-width: 100%;
+    max-width:70%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    overflow: hidden;
+    border-radius:10px;
+    border: solid white 2px;
+    padding: 0 2%;
+}
+ .ep h1{
+    margin: 20px;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+ }
+ .ep h1:hover{
+    cursor: pointer;
+    text-decoration: underline;
+ }
+.pato{
+    display: flex;
+    gap:5px;
+    justify-content: space-around;
+}
+ .text-refer{
+    padding:12% ;
+    display: flex;
+    align-items: center;
+    height:350px;
+    padding: 5%;
+    color: white;
+    font-size: 20px;
+    font-family: Quicksand ;
+    width: 400px;
+ }
+
+.img-refer{
+    display: flex;
+    flex-direction: column;
+    border-radius:10px;
+    width: 300px;
+    height: 350px;
+
+    padding: 2%;
+}
+.img-refer ul{
+    border-radius: 10px;
+    margin-top:40px ;
+    list-style: none;
+    color: white;
+    font-size:20px;
+    font-family:Quicksand ;
+    text-align: left;
+
+}
+.retrato{
+
+ 
+    border: 3px solid white;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    
+    background-color: white;
+   
+    transition: 0.5s ease-in-out;
+}
+
+.retrato img{
+
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    box-shadow: blue 5px 5px 40px;
+}
+
+.retrato:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: red 10px 5px  40px ;
+}
+
+.sideBar{ 
+
+    height:150vh;
+    width: 50%;
+    padding: 2%;
+    padding-top: 10%;
+    padding-right:5%;
+    position: fixed;
+    top: -10px;
+    right: -10px;
+    background-color: rgb(53, 51, 51);
+    font-size: 40px;
+    white-space: nowrap;
+    animation: cresceMenu 1s linear;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+   
+
+.paich{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: rgb(53, 51, 51);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ch{
+    text-align: end;
+}
+.ch:hover{
+    background-color: purple;
+}
+
+.close{
+    border-radius: 10%;
+    text-align: center;
+    width: 30px;
+    position: relative;
+    left:4%;
+    top:-2%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+}
+.close:hover{
+    cursor: pointer;
+    color: rgb(123, 5, 5);
+}
+footer{
+    color: white;
+    position: relative;
+    background-color: rgb(42, 41, 41);
+    margin-top: 10px;
+    height: 100px;
+}
+footer button{ 
+    position: absolute;
+    left: 4%;
+    top: -10%;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blue;
+}
+}
